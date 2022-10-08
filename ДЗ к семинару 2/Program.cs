@@ -45,3 +45,37 @@
 //     Console.WriteLine($"Третье цифра в числе {number} является {number3}");
 // }
 
+
+// Задача 15
+// Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, 
+// является ли этот день выходным. Обязательно сделать проверку на ввод чисел меньше 1 и больше 7
+
+// РЕШЕНИЕ
+
+// Console.WriteLine("Введите число: ");
+// int num = int.Parse(Console.ReadLine()!);
+// if((num < 1) && (num > 7)){
+//     Console.WriteLine("Это вообще не день недели");
+// }
+
+// switch (num){
+//     case 1: Console.WriteLine("Понедельник");
+//     break;
+//      case 2: Console.WriteLine("Вторник");
+//     break;
+//      case 3: Console.WriteLine("Среда");
+//     break;
+//      case 4: Console.WriteLine("Четверг");
+//     break;
+//      case 5: Console.WriteLine("Пятница");
+//     break;
+//      case 6: Console.WriteLine("Суббота");
+//     break;
+//      case 7: Console.WriteLine("Воскресенье");
+//     break;
+//     default: Console.WriteLine("В неделе всего 7 дней");
+//     break;
+// }
+// if((num == 6) || (num == 7)){
+//     Console.WriteLine("Это выходной день!");
+// }
